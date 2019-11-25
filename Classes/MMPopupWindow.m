@@ -10,6 +10,7 @@
 #import "MMPopupCategory.h"
 #import "MMPopupDefine.h"
 #import "MMPopupView.h"
+#import "MMPopupBaseViewController.h"
 
 @interface MMPopupWindow()
 <

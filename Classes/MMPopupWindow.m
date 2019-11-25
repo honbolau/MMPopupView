@@ -43,7 +43,7 @@ UIGestureRecognizerDelegate
     
     dispatch_once(&onceToken, ^{
         window = [[MMPopupWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-        window.rootViewController = [UIViewController new];
+        window.rootViewController = [MMPopupBaseViewController new];
     });
     
     return window;
